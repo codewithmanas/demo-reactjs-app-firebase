@@ -19,7 +19,7 @@ jobs:
           channelId: live
           projectId: fir-react-app-d151f
   permissions:
-  id-token: write
-  contents: read
-  issues: write
-  pull-requests: write
+    id-token: write
+    contents: read
+    issues: write
+    pull-requests: write
