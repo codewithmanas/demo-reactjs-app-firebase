@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         Deployment is going on here.
         <p>hosted on <code>Firebase</code> with GitHub Actions.</p>
+        <a href="https://reactjs.org/">Learn more...</a>
       </header>
     </div>
   );
