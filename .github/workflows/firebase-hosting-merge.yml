@@ -6,6 +6,11 @@ name: Deploy to Firebase Hosting on merge
   push:
     branches:
       - main
+permissions:
+    id-token: write
+    contents: read
+    issues: write
+    pull-requests: write
 jobs:
   build_and_deploy:
     runs-on: ubuntu-latest
@@ -18,8 +23,3 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIR_REACT_APP_D151F }}'
           channelId: live
           projectId: fir-react-app-d151f
-  permissions:
-  id-token: write
-  contents: read
-  issues: write
-  pull-requests: write
