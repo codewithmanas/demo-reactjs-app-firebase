@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         Deployment is going on here.
-        <p>hosted on <code>Firebase</code></p>
+        <p>hosted on <code>Firebase</code> with GitHub Actions.</p>
       </header>
     </div>
   );
